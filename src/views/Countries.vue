@@ -1,5 +1,6 @@
 <template>
     <b-container>
+        <h1>Countries list</h1>
         <b-table striped hover :items="items"></b-table>
     </b-container>
 </template>

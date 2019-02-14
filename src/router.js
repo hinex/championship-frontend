@@ -17,19 +17,24 @@ const router = new Router({
             component: () => import('./views/Countries.vue')
         },
         {
-            path: '/country/:id',
-            name: 'country_teams',
-            component: () => import('./views/Teams.vue')
-        },
-        {
-            path: '/create/team',
+            path: '/team/create',
             name: 'create_team',
             component: () => import('./views/CreateTeam.vue')
         },
         {
-            path: '/create/country',
+            path: '/country/create',
             name: 'create_country',
             component: () => import('./views/CreateCountry.vue')
+        },
+        {
+            path: '/teams',
+            name: 'country_teams',
+            component: () => import('./views/Teams.vue')
+        },
+        {
+            path: '/country/:id',
+            name: 'country_teams',
+            component: () => import('./views/Teams.vue')
         }
     ]
 })

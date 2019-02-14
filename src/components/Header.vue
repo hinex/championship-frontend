@@ -15,8 +15,8 @@
                     <template slot="button-content">
                         <em>Create</em>
                     </template>
-                    <b-dropdown-item href="/country/create">Country</b-dropdown-item>
-                    <b-dropdown-item href="/team/create">Team</b-dropdown-item>
+                    <b-dropdown-item to="/country/create">Country</b-dropdown-item>
+                    <b-dropdown-item to="/team/create">Team</b-dropdown-item>
                 </b-nav-item-dropdown>
             </b-navbar-nav>
         </b-collapse>

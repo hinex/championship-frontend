@@ -1,5 +1,7 @@
 <template>
-    <b-container></b-container>
+    <b-container>
+        <h1>Teams list</h1>
+    </b-container>
 </template>
 
 <script>

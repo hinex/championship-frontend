@@ -19,4 +19,8 @@
 <style lang="scss">
   @import '~bootstrap/dist/css/bootstrap.css';
   @import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+  h1 {
+    padding: 20px 0;
+  }
 </style>
